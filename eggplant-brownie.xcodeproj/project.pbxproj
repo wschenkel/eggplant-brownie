@@ -13,6 +13,8 @@
 		546EB7B124C6C4D8002EAC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EB7AF24C6C4D8002EAC32 /* Main.storyboard */; };
 		546EB7B324C6C4D9002EAC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546EB7B224C6C4D9002EAC32 /* Assets.xcassets */; };
 		546EB7B624C6C4D9002EAC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EB7B424C6C4D9002EAC32 /* LaunchScreen.storyboard */; };
+		54CD2E8824CAB51C00E0397A /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD2E8724CAB51C00E0397A /* Refeicao.swift */; };
+		54CD2E8A24CAB54200E0397A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD2E8924CAB54200E0397A /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		546EB7B224C6C4D9002EAC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		546EB7B524C6C4D9002EAC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		546EB7B724C6C4D9002EAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A8B6FF24C7F2880018A139 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		54CD2E8724CAB51C00E0397A /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		54CD2E8924CAB54200E0397A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +62,41 @@
 			isa = PBXGroup;
 			children = (
 				546EB7A924C6C4D8002EAC32 /* AppDelegate.swift */,
-				546EB7AB24C6C4D8002EAC32 /* SceneDelegate.swift */,
-				546EB7AD24C6C4D8002EAC32 /* ViewController.swift */,
-				546EB7AF24C6C4D8002EAC32 /* Main.storyboard */,
+				54CD2E8B24CAB55B00E0397A /* Models */,
+				54CD2E8D24CAB57800E0397A /* Views */,
+				54CD2E8C24CAB56A00E0397A /* Controllers */,
 				546EB7B224C6C4D9002EAC32 /* Assets.xcassets */,
+				546EB7AB24C6C4D8002EAC32 /* SceneDelegate.swift */,
+				54A8B6FF24C7F2880018A139 /* MyPlayground.playground */,
 				546EB7B424C6C4D9002EAC32 /* LaunchScreen.storyboard */,
 				546EB7B724C6C4D9002EAC32 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		54CD2E8B24CAB55B00E0397A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54CD2E8724CAB51C00E0397A /* Refeicao.swift */,
+				54CD2E8924CAB54200E0397A /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54CD2E8C24CAB56A00E0397A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				546EB7AD24C6C4D8002EAC32 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		54CD2E8D24CAB57800E0397A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				546EB7AF24C6C4D8002EAC32 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CD2E8A24CAB54200E0397A /* Item.swift in Sources */,
 				546EB7AE24C6C4D8002EAC32 /* ViewController.swift in Sources */,
 				546EB7AA24C6C4D8002EAC32 /* AppDelegate.swift in Sources */,
 				546EB7AC24C6C4D8002EAC32 /* SceneDelegate.swift in Sources */,
+				54CD2E8824CAB51C00E0397A /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
